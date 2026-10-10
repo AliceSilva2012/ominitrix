@@ -17,7 +17,7 @@
 
 O **Omnitrix Web** é um projeto front-end que simula o funcionamento do relógio icônico do desenho **Ben 10**. A aplicação renderiza dinamicamente projeções de alienígenas utilizando JavaScript Vanilla (também conhecido como JavaScript puro), permitindo que o usuário interaja clicando no visor do relógio para alternar entre os heróis.
 
-Um detalhe do desenvolvimento foi a decisão arquitetural de migrar de uma API externa instável para o consumo de **assets locais** (imagens PNG) estruturados em Objetos JavaScript. Isso garantiu que o projeto se tornasse independente, com carregamento instantâneo e funcionamento 100% offline, sem depender de servidores de terceiros (uma API externa).
+Um detalhe do desenvolvimento foi a decisão arquitetural de migrar de uma API externa instável para o consumo de **assets locais** (imagens PNG) estruturados em Objetos JavaScript (um `array`). Isso garantiu que o projeto se tornasse independente, com carregamento instantâneo e funcionamento 100% offline, sem depender de servidores de terceiros (uma API externa).
 
 ---
 
