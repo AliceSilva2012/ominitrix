@@ -62,8 +62,7 @@ Um detalhe do desenvolvimento foi a decisão arquitetural de migrar de uma API e
 
 ## 🌎 Teste meu projeto no seu navegador!
 
-> O projeto foi estruturado para funcionar perfeitamente em telas de computadores e notebooks. 
-
+>PO projeto segue com melhorias portanto é 100% responsivo! 
 - **Omnitrix Web:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/ominitrix/)
 
 ---
