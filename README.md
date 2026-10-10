@@ -26,7 +26,7 @@ Um detalhe do desenvolvimento foi a decisão arquitetural de migrar de uma API e
 - **Renderização Dinâmica:** Troca instantânea da imagem do alienígena e do painel digital com o nome correspondente utilizando um Array de Objetos no JavaScript.
 - **Animações CSS Avançadas (Holograma):** Efeito de flutuação suave (`@keyframes`) aplicado aos alienígenas para simular uma projeção holográfica.
 - **Design Responsivo:** Adaptação perfeita para dispositivos móveis (smartphones) utilizando `@media queries` no CSS, ajustando proporcionalmente os tamanhos do relógio, das projeções e da tipografia.
-- **Brilho Pulsante Otimizado:** Uso de filtros CSS (`drop-shadow`) combinados com propriedades de otimização de renderização (`will-change` e `transform: translateZ(0)`) para criar a aura verde de energia do núcleo sem bugs visuais durante interações com o mouse.
+- **Brilho Pulsante Otimizado:** Uso de filtros CSS (`drop-shadow`) combinados com propriedades de otimização de renderização (`will-change` e `transform: translateZ(0)`) para criar o brilho verde de energia do núcleo sem bugs visuais durante interações com o mouse.
 - **Estrutura Offline:** Gerenciamento de arquivos locais com tratamento de imagens em transparência (Alpha Channel) para sobreposição perfeita no visor do relógio.
 
 ---
