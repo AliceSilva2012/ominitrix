@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px; 
+}
+
+.imagem-ominitrix {
+    position: relative; 
+    width: 400px;
+    height: auto;
+}
+
+.geral-ominitrix {
+    width: 100%;
+    height: 100%;
+    animation: pulsoVerde 2s infinite;
+    /*Serve pra animação nao sumir, independente de onde o mouse estiver*/
+    will-change: filter;
+    transform: translateZ(0);
+}
+
+#imagem-alien {
+    position: absolute; /*Pra posicionar onde eu quero*/
+    width: 160px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: flutuante 3s ease-in-out infinite;
+}
+
+@keyframes pulsoVerde { /*Feito com suporte de ia*/
+    0% { filter: drop-shadow(0 0 10px #10b52a); }
+    50% { filter: drop-shadow(0 0 35px #10b52a); }
+    100% { filter: drop-shadow(0 0 10px #10b52a); }
+}
+
+.geral-ominitrix:hover {
+    width: 100%;
+    height: 100%;
+    animation: pulsoVerde 2s infinite; 
+}
+
+@keyframes flutuante {
+    0% { transform: translate(-50%, -50%) translateY(0px); }
+    50% { transform: translate(-50%, -50%) translateY(-15px); } 
+    100% { transform: translate(-50%, -50%) translateY(0px); }
+}
+
+.campo-nome {
+    color: #10b52a; /* verde neon */
+    font-family: monospace; /*Letra de máquina/ hackerrrrrrr*/
+    font-size: 2.2rem; /*Tamanho da letra*/
+    text-transform: uppercase; /* Fica tudo em letra MAIÚSCULA*/
+    letter-spacing: 5px; /* Espaço nas letras */
+    text-shadow: 0 0 12px #10b52a; /*O text-shadow serve para criar um efeito neon ao redor do texto*/
+}
+
+.caixa-informacoes {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 14px 28px;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px #10b52a; 
+    width: 380px;
+    text-align: center;
+}
