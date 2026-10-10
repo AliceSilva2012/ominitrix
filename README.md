@@ -98,7 +98,7 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 ```mermaid
 graph TD
     A[ominitrix] --> B[img]
-    B --> B1[ominitrix.png]
+    B --> B1[quatrobracos.png]
     B --> B2[chama.png]
     B --> B3[fantasmatico.png...]
     A --> C[index.html]
