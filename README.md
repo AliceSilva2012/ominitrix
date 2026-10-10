@@ -1,6 +1,6 @@
 # Omnitrix Web 👽
 
-<img width="1440" height="900" alt="omnitrix-preview" src="https://github.com/user-attachments/assets/coloque-o-link-da-sua-imagem-aqui">
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a1bb5110-cf3f-43b7-b2cb-6056758c661e">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
