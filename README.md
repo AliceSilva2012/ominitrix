@@ -1,4 +1,4 @@
-# Omnitrix Web 👽
+# Omnitrix Web 👽⌚️
 
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/a1bb5110-cf3f-43b7-b2cb-6056758c661e">
 
