@@ -63,7 +63,7 @@ Um detalhe do desenvolvimento foi a decisão arquitetural de migrar de uma API e
 
 > O projeto foi estruturado para funcionar perfeitamente em telas de computadores e notebooks. 
 
-- **Omnitrix Web:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](#)
+- **Omnitrix Web:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/ominitrix/)
 
 ---
 
