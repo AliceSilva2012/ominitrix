@@ -81,3 +81,32 @@ Caso queira clonar o projeto e rodar o código diretamente na sua máquina, siga
 1. **Clone este repositório:**
    ```bash
    git clone https://github.com/AliceSilva2012/ominitrix.git
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd ominitrix
+   ```
+
+3. **Execute a aplicação:**
+   - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
+   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+
+---
+
+## 📁 Estrutura de Arquivos
+
+```mermaid
+graph TD
+    A[ominitrix] --> B[img]
+    B --> B1[ominitrix.png]
+    B --> B2[chama.png]
+    B --> B3[fantasmatico.png...]
+    A --> C[index.html]
+    A --> D[style.css]
+    A --> E[script.js]
+
+    style C fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#4caf50,stroke:#fff,stroke-width:2px,color:#fff
+```
